@@ -1,0 +1,32 @@
+footer {
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    background-color: #212121;
+    color: white;
+}
+
+@media screen and (max-width: 992px){
+    footer {
+        height: 50px;
+    }
+} 
+@media screen and (max-width: 620px){
+    footer {
+        height: 45px;
+    }
+} 
+
+@media screen and (max-width: 575px){
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 350px){
+    footer {
+        font-size: 0.7rem;
+    }
+}

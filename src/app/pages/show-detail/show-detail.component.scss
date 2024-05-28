@@ -1,0 +1,195 @@
+::ng-deep{
+    .p-tabview .p-tabview-nav {
+        justify-content: center ;
+    }
+
+    .p-tabview .p-tabview-nav .p-tabview-ink-bar {
+        background-color: #ff0000;
+    }
+    .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+        background-color: red;
+     }
+     @media screen and (max-width: 1010px){
+        .p-component {
+            font-size: 0.9rem;
+        }
+     }
+     @media screen and (max-width: 850px){
+        .p-component {
+            font-size: 0.8rem;
+        }
+     }
+     @media screen and (max-width: 700px){
+        .p-carousel .p-carousel-indicators .p-carousel-indicator button {
+            width: 1.5rem;
+     }
+     }
+     @media screen and (max-width: 690px) {
+        .p-component {
+            font-size: 0.9rem;
+        }
+    }
+    @media screen and (max-width: 560px) {
+        .p-component {
+            font-size: 0.75rem;
+        }
+    }
+    @media screen and (max-width: 530px){
+        .p-carousel .p-carousel-indicators .p-carousel-indicator button {
+            width: 1rem;
+     }
+     .p-carousel-indicators {
+        width: 80%;
+        margin: auto;
+     }
+     .p-carousel .p-carousel-indicators .p-carousel-indicator {
+        margin-right: 0.3rem;
+        margin-bottom: 0.3rem;
+    }
+    }
+    @media screen and (max-width: 450px) {
+        .p-tabview .p-tabview-nav li .p-tabview-nav-link {
+           padding: 0.8rem 0.8rem;
+        }
+    }
+
+    @media screen and (max-width: 340px) {
+        .p-tabview .p-tabview-nav li .p-tabview-nav-link {
+           padding: 0.6rem 0.6rem;
+           font-size: 0.7rem;
+        }
+        .p-carousel-indicators {
+            width: 70%;
+            margin: auto;
+         }
+    }
+}
+
+
+
+
+.poster {
+    max-width: 100%;
+}
+.overview {
+    line-height: 1.5;
+    width: 80%;
+    padding-bottom: 2.3rem;
+}
+.title {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 0, 0, 0.612);
+   }
+.stat {
+    display: flex;
+    padding-top: 1.3rem;
+    
+    .label{
+       width: 13rem;
+    }
+    .value {
+        color: orange;
+    }
+}
+
+.show-image {
+    width: 100%;
+}
+
+.actor {
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    padding: 0.7rem;
+    img{
+        max-width: 100%;
+    }
+    div {
+        text-align: center;
+    }
+}
+
+.col-2 {
+    width: 20%;
+}
+
+@media screen and (max-width: 950px) {
+    .col-2 {
+        width: 25%;
+    }
+}
+@media screen and (max-width: 745px) {
+    .stat {
+        .label{
+            width: 10rem;
+         }
+    }
+
+    .col-2 {
+        width: 33.33%;
+    }
+
+
+}
+@media screen and (max-width: 638px) {
+    .stat {
+        .label{
+            width: 8rem;
+         }
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .col-3 {
+        display: none;
+    }
+    .col-9 {
+        width: 90%;
+        margin: auto;
+
+        .overview {
+            width: 90%;
+            padding-bottom: 1.3rem;
+        }
+        .stat {
+            padding-top: 1rem;
+        }
+        .genre {
+            .value{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+
+    .col-4 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .stat {
+        .label{
+            width: 9rem;
+         }
+    }
+    .col-4 {
+        width: 90%;
+        margin: auto;
+    }
+    .col-2 {
+        margin: auto;
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 305px) {
+    .stat {
+        .label{
+            width: 6rem;
+         }
+    }
+}
+
+

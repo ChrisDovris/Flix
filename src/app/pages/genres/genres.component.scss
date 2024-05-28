@@ -1,0 +1,167 @@
+.genres-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    a {
+        width: 12%;
+        padding: 0.4rem;
+        background-color: red;
+        margin-right: 0.7rem;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        margin-bottom: 0.7rem;
+    }
+    @media screen and (max-width: 1150px) { 
+        a {
+            font-size: 1rem;
+        }
+    }
+    @media screen and (max-width: 885px){
+        a {
+            font-size: 0.9rem;
+        }
+    }
+    @media screen and (max-width: 736px) {
+        a {
+            font-size: 1rem;
+            width: 15%;
+        }
+    }
+    @media screen and (max-width: 680px) {
+        a {
+            font-size: 1rem;
+            width: 18%;
+        }
+    }
+    @media screen and (max-width: 590px) {
+        a {
+            font-size: 1rem;
+            width: 25%;
+        }
+    }
+    @media screen and (max-width: 444px) {
+        a {
+            font-size: 1rem;
+            width: 40%;
+        }
+    }
+    @media screen and (max-width: 366px) {
+        a {
+            font-size: 1rem;
+            width: 40%;
+        }
+    }
+}
+
+.showItem {
+    @media screen and (max-width: 575px){
+        margin: auto;
+        padding-bottom: 0.8rem;
+    }
+
+    @media screen and (max-width: 532px) {
+        width: 65%;
+    }
+}
+@media screen and (max-width: 575px) {
+    .showItem { 
+        width: 45%;
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+}
+::ng-deep {
+    @media screen and (max-width: 575px){
+        .p-paginator {
+            height: 40px;
+            align-content: center;
+        }
+        .p-paginator .p-paginator-pages .p-paginator-page{
+            min-width: 2rem;
+            height: 2rem;
+    }
+    .p-paginator .p-paginator-last, .p-paginator .p-paginator-first {
+        min-width: 1.5rem;
+    }
+    }
+    @media screen and (max-width: 415px) {
+        .p-paginator{
+            height: 25px;
+            font-size: 0.9rem;
+        }
+    .p-paginator .p-paginator-pages .p-paginator-page{
+        min-width: 1.5rem;
+        height: 1.5rem;
+}
+.p-paginator .p-paginator-last, .p-paginator .p-paginator-first {
+    min-width: 1.2rem;
+}
+
+.p-paginator .p-paginator-last{
+    padding-left: 0;
+}
+    }
+    @media screen and (max-width: 375px) {
+        .p-paginator{
+            height: 20px;
+        }
+    .p-paginator .p-paginator-pages .p-paginator-page{
+        min-width: 1.2rem;
+        height: 1.2rem;
+        padding: 0.4rem;
+}
+.p-paginator .p-paginator-last, .p-paginator .p-paginator-first {
+    min-width: 1.1rem;
+}
+
+    }
+    @media screen and (max-width: 352px) {
+    .p-paginator .p-paginator-pages .p-paginator-page{
+        min-width: 1rem;
+        height: 1rem;
+}
+    }
+    @media screen and (max-width: 299px) {
+        .p-paginator .p-paginator-pages .p-paginator-page {
+            padding: 0;
+        }   
+    }
+    @media screen and (max-width: 275px) {
+        .p-paginator .p-paginator-prev, .p-paginator .p-paginator-next {
+            min-width: 2rem;
+        }
+        .p-paginator .p-paginator-last, .p-paginator .p-paginator-first{
+            min-width: 1rem;
+        }
+    }
+    @media screen and (max-width: 239px) {
+        .p-paginator .p-paginator-prev, .p-paginator .p-paginator-next {
+            min-width: 1.2rem;
+        }
+    }
+
+}
+
+    @media screen and (max-width: 450px) {
+        input {
+           padding: 0.3rem 0;
+        }
+    }
+
+    
+    @media screen and (max-width: 310px) {
+        .showItem { 
+            width: 64%;
+            margin: auto;
+            padding-bottom: 1rem;
+        }
+        .searchBar {
+        .span {
+            width: 80%;
+         }
+        }
+        }
+
+       
+
+

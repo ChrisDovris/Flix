@@ -1,0 +1,37 @@
+
+
+p {
+    text-decoration: underline;
+    text-decoration-color: red;
+    font-size: calc(3vw);
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 575px) {
+.showItem { 
+    width: 45%;
+    margin: auto;
+    padding-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .showItem { 
+        width: 64%;
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+    p {
+        display: flex;
+        justify-content: center;
+        font-size: 1.1rem;
+        padding-bottom: 0.7rem;
+    }
+    }
+

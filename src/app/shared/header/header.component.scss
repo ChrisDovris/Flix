@@ -1,0 +1,34 @@
+header{
+    display: flex;
+    height: 4rem;
+    align-items: center;
+     background-color: #212121;
+     border: 0;
+    .logo{
+        width: 10%;
+        a {
+            img {
+               padding-left: 0.5rem;
+                width: 75%;
+            }
+        }
+    }
+    .items {
+        width: 90%;
+    }
+}
+
+::ng-deep {
+    .p-menubar {
+        background-color: #212121;
+        height: 4rem;
+        border: 0;
+        flex-direction: row-reverse;
+        padding-right: 1rem;
+    }
+    @media screen and (max-width: 560px) {
+        .p-icon { 
+            height: 0.9rem;
+        }
+    }
+}
